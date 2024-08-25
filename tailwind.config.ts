@@ -8,6 +8,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        sm: "390px",
+        md: "744px",
+        lg: "1040px",
+      },
       fontFamily: {
         prompt: ["var(--font-prompt)", "Maven Pro", "sans-serif"],
         mavenpro: ["var(--font-mavenpro)", "Maven Pro", "sans-serif"],

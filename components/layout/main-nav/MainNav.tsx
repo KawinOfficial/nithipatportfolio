@@ -5,22 +5,20 @@ import { ROUTE } from "@/constants/routes";
 
 const MainNav = () => {
   return (
-    <div className="py-[14px] flex items-center justify-between bg-white/20 container mx-auto max-w-[1040px]">
+    <div className="py-[14px] flex items-center justify-between bg-white/20 container mx-auto md:max-w-screen-md lg:max-w-screen-lg">
       <div className="flex items-center space-x-4">
-        <Link href={ROUTE.HOME}>
-          <Image
-            src="/images/logo.png"
-            width={32}
-            height={32}
-            alt="logo"
-            sizes="20vw"
-            priority
-          />
+        <Link
+          href={ROUTE.HOME}
+          className="block relative aspect-square w-[28px] md:w-[36px] lg:w-[40px]"
+        >
+          <Image src="/images/logo.png" alt="logo" sizes="20vw" fill />
         </Link>
-        <p className="font-bold text-xl text-primary">Nithipat Lertsopaphan</p>
+        <p className="font-bold text-xl text-primary hidden lg:block">
+          Nithipat Lertsopaphan
+        </p>
       </div>
 
-      <div className="flex items-center space-x-12 ">
+      <div className="items-center space-x-12 hidden md:flex md:text-[16px] lg:text-[20px]">
         {MENU.map(({ label, link }) => (
           <Link
             href={link}
