@@ -9,8 +9,7 @@ const Footer = () => {
         width={120}
         height={120}
         alt="logo"
-        sizes="50vw"
-        priority
+        sizes="40vw"
       />
 
       <p className="font-bold text-[24px]">Nithipat Lertsopaphan</p>

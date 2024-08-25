@@ -27,12 +27,12 @@ export default function RootLayout({
       <body>
         <main
           className={cn(
-            "min-h-screen flex flex-col h-full bg-white",
+            "min-h-screen flex flex-col h-full bg-white ",
             mavenPro.className
           )}
         >
           <MainNav />
-          <div className="flex-grow  container px-[80px]">{children}</div>
+          <div className="flex-grow h-full">{children}</div>
           <Footer />
         </main>
       </body>
