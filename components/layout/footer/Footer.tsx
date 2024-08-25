@@ -14,17 +14,14 @@ const Footer = () => {
         </p>
 
         <div className="flex items-center space-x-[46px]">
-          <Icon
-            icon="bi:linkedin"
-            className="h-[24px] lg:h-[32px] w-[24px] md:w-[32px]"
-          />
+          <Icon icon="bi:linkedin" className="text-[24px] lg:text-[32px]" />
           <Icon
             icon="icomoon-free:behance2"
-            className="h-[24px] lg:h-[32px] w-[24px] md:w-[32px]"
+            className="text-[24px] lg:text-[32px]"
           />
           <Icon
             icon="ri:instagram-fill"
-            className="h-[26px] lg:h-[36px] w-[26px] md:w-[36px]"
+            className="text-[28px] lg:text-[38px]"
           />
         </div>
 

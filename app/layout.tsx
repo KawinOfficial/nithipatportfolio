@@ -27,7 +27,7 @@ export default function RootLayout({
       <body>
         <main
           className={cn(
-            "min-h-screen flex flex-col h-full bg-white ",
+            "min-h-screen flex flex-col h-full bg-white",
             mavenPro.className
           )}
         >
