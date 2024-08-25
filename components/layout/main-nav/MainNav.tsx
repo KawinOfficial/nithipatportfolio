@@ -6,7 +6,7 @@ import MobileNav from "@/components/layout/mobile-nav";
 
 const MainNav = () => {
   return (
-    <div className="fixed z-20 py-[14px] inset-x-0 top-0 flex items-center justify-between bg-white md:bg-white/20 max-w-screen-sm mx-auto md:max-w-screen-md lg:max-w-screen-lg">
+    <div className="fixed z-20 px-[24px] sm:px-0 py-[14px] inset-x-0 top-0 flex items-center justify-between bg-white md:bg-white/20 max-w-screen-sm mx-auto md:max-w-screen-md lg:max-w-screen-lg">
       <div className="flex items-center space-x-4">
         <Link
           href={ROUTE.HOME}
