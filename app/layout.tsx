@@ -32,7 +32,7 @@ export default function RootLayout({
           )}
         >
           <MainNav />
-          <div className="flex-grow container px-[160px]">{children}</div>
+          <div className="flex-grow  container px-[80px]">{children}</div>
           <Footer />
         </main>
       </body>
