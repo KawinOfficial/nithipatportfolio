@@ -8,10 +8,18 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      fontFamily: {
+        prompt: ["var(--font-prompt)", "Maven Pro", "sans-serif"],
+        mavenpro: ["var(--font-mavenpro)", "Maven Pro", "sans-serif"],
+      },
+      colors: {
+        primary: "#4A7AC1",
+        secondary: "#FFDBCB",
+        black: "#252525",
+        gray: {
+          e4e: "#E4E4E4",
+          "8b8": "#8B8B8B",
+        },
       },
     },
   },
