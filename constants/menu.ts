@@ -3,7 +3,7 @@ import { ROUTE } from "./routes";
 export const MENU = [
   {
     label: "Work",
-    link: "",
+    link: ROUTE.HOME,
   },
   {
     label: "About",
