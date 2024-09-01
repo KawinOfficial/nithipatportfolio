@@ -14,11 +14,11 @@ export default function AboutPage() {
         </p>
       </article>
 
-      <div className="grid grid-cols-2 pb-[120px] gap-[16px]">
+      <div className="grid md:grid-cols-2 pb-[120px] gap-[16px]">
         <PortImage />
 
-        <div className="text-[16px] space-y-[16px]">
-          <p className="font-bold text-[20px] leading-tight">
+        <div className="text-[12px] lg:text-[16px] space-y-[8px] lg:space-y-[16px]">
+          <p className="font-bold text-[14px] lg:text-[20px] leading-tight">
             Hello! I&apos;m Nithipat, Bangkok based UX/UI designer who believe
             that starting with a broad perspective and then focusing on the
             details is the essence of all great design.
@@ -38,7 +38,7 @@ export default function AboutPage() {
             and user-friendly solutions.
           </p>
 
-          <div className="space-y-[8px]">
+          <div className="space-y-[4px] lg:space-y-[8px]">
             <p className="font-semibold">Previously, I am</p>
             {PORTLIST.map(({ tag, company, period }, idx) => (
               <ul
@@ -54,7 +54,7 @@ export default function AboutPage() {
             ))}
           </div>
 
-          <div className="space-y-[8px]">
+          <div className="space-y-[4px] lg:space-y-[8px]">
             <p className="font-semibold">About hobbies and interests</p>
             <p className="leading-tight">
               Whenever I have some free time, the first thing I do is fire up my
