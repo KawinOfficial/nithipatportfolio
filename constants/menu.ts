@@ -15,6 +15,6 @@ export const MENU = [
   },
   {
     label: "Contact",
-    link: "",
+    link: ROUTE.CONTACT,
   },
 ];
