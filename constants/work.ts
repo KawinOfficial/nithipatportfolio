@@ -38,3 +38,26 @@ export const WORKLIST = [
     year: 2024,
   },
 ];
+
+export const PORTLIST = [
+  {
+    tag: "UX/UI Designer",
+    company: "Witsawa Corperation Co., Ltd,",
+    period: "(October 2023 - Present)",
+  },
+  {
+    tag: "Lighting Designer - Junior Level",
+    company: "Belit Co., Ltd,",
+    period: "(July 2022 - September 2023)",
+  },
+  {
+    tag: "Architect - Internship",
+    company: "Full Scale Studio, CNX",
+    period: "(Summer 2021)",
+  },
+  {
+    tag: "Architectural Student",
+    company: "BArch - Silpakorn University",
+    period: "(May 2017 - May 2022)",
+  },
+];

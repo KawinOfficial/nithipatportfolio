@@ -5,9 +5,11 @@ import { Link } from "@/components/link";
 import { MENU } from "@/constants/menu";
 import { useState } from "react";
 import cn from "classnames";
+import { usePathname } from "next/navigation";
 
 const MobileNav = () => {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
 
   return (
     <div className="block md:hidden">
@@ -28,7 +30,12 @@ const MobileNav = () => {
           <Link
             href={link}
             key={`menu-${label}`}
-            className="hover:text-primary text-gray-8b8 text-[12px] block p-[10px]"
+            className={cn(
+              "hover:text-primary text-gray-8b8 text-[12px] block p-[10px]",
+              {
+                "text-primary": pathname === link,
+              }
+            )}
           >
             {label}
           </Link>

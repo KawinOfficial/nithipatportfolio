@@ -7,7 +7,7 @@ export const MENU = [
   },
   {
     label: "About",
-    link: "",
+    link: ROUTE.ABOUT,
   },
   {
     label: "Resume",
